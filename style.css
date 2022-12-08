@@ -1,0 +1,35 @@
+/* In the External CSS, Using Pointer(h2) which were declaring the decoration.. */
+h2 {
+    color: blue;
+    font-size: 120px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    background-color: whitesmoke;
+    color: red;
+}
+
+#CSSdiv {
+    background-color: peru;
+    color: white;
+}
+
+.CSSclass {
+    background-color: white;
+    color: violet;
+}
+
+h3.CSSclass {
+    background-color: blueviolet;
+    color: white;
+}
+
+p, h2, body {
+    background-color: chartreuse;
+    color: black;
+}
