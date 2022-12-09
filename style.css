@@ -1,4 +1,4 @@
-/* In the External CSS, Using Pointer(h2) which were declaring the decoration.. */
+/* In the External CSS, Using Selector/Pointer(h2) which were declaring the decoration.. */
 h2 {
     color: blue;
     font-size: 120px;
@@ -6,8 +6,17 @@ h2 {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */  /*    hexa_value  #fff */
+    /* background-color:rgb(208, 23, 23); */
+
+    /* background-image: url("images/image2.gif"); */
+    /* background-repeat: no-repeat; */
+    /* background-position:20px; */
+    /* background-size: cover; */
+
+    background: black url("images/image2.gif")  no-repeat ;  /* Short hand */
 }
+
 
 div {
     background-color: whitesmoke;
@@ -29,7 +38,7 @@ h3.CSSclass {
     color: white;
 }
 
-p, h2, body {
+p, h2 {
     background-color: chartreuse;
     color: black;
 }
