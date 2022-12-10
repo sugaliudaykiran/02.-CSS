@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+#head-container {
+    width: 80%;
+    margin: auto;
+}
+
+.col-3 {
+    /* background-color: red; */
+    width: 33%;
+    float: left;
+}
+
+.col-3 #col-3-img {
+    padding: 20px 40px;
+    
+}
+.menu li {
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+}
+
+.get-startedBTN {
+    
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+
+    background-color: #6dc77a;    
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display:inline-block;
+}
+
