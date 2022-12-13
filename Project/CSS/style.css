@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     margin: 0;
 }
 
@@ -96,6 +96,45 @@ header {
 .play-button {
     margin-left: auto;
     margin-right: auto;
-    display:block;
+    display: block;
     padding: 50px 0px 110px 0px;
 }
+
+.main-form h6 {
+    font-family: sans-serif;
+    font-size: .9em;
+    color: white;
+    font-weight: 100;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-form input {
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+}
+
+.main-form button {
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    margin: 0;
+    width: 30%;
+    height: 42px;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 2px;
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+
