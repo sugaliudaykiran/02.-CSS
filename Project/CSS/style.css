@@ -1,5 +1,5 @@
 html {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: "Lato", "Helvetica Neu","Helvetica", "Arial", sans-serif;
 }
 
 body {
@@ -10,6 +10,13 @@ body {
 header {
     background-color: #ffffff;
     height: 80px;
+}
+
+p { 
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", "Helvetica Neue","Helvetica", "Arial", sans-serif;
 }
 
 #head-container {
@@ -76,7 +83,7 @@ header {
 }
 
 #top-section-content h1 {
-    font-size: 3em;
+    font-size: 2.9em;
     font-weight: 300;
     color: white;
     text-align: left;
@@ -149,3 +156,44 @@ header {
     margin: auto;
 }
 
+.feature-content {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feature-content .col-3 img {
+    width: 100%;
+
+}
+
+.feature-content .col-3 p {
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+.feature-content .col-3 {
+    padding: 10px;
+    width: 30%;
+}
+
+.col-2 {
+    float: left;
+    width: 48%;
+}
+#showcase1-container {
+    padding-top: 60px;
+    background-color: #fef8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.showcaseImg {
+    width: 100%;
+}
