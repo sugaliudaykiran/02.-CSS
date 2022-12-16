@@ -352,3 +352,11 @@ footer {
     padding-top: 60px;
 }
 
+
+.copyright {
+    color: #ffffff;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
